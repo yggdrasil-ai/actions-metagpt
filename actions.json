@@ -1,0 +1,27 @@
+{
+    "run-metagpt": {
+        "description": {
+            "EN": "MetaGPT takes a one line requirement as input and outputs user stories / competitive analysis / requirements / data structures / APIs / documents, etc."
+        },
+        "category": "gpt-based",
+        "args": {
+            "author": {
+                "description": {
+                    "EN": "Command author"
+                },
+                "type": "string",
+                "required": true,
+                "default": "undefined"
+            },
+            "idea": {
+                "description": {
+                    "EN": "One line requirement"
+                },
+                "type": "string",
+                "required": true,
+                "default": "undefined"
+            }
+        },
+        "endpoint": "https://actions-metagpt-ai32xjq4va-ew.a.run.app"
+    }
+}
