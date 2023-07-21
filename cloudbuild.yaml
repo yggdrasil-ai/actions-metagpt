@@ -22,6 +22,6 @@ steps:
   - --trigger-http
   - --runtime=python310
   - --entry-point=internet_retriever_commands
-  - --service-account=command-processor-cf@yggdrasil-ai-hermod.iam.gserviceaccount.com
+  - --service-account=actions-gpt-based-cf@yggdrasil-ai-hermod.iam.gserviceaccount.com
   - --set-env-vars=PROJECT_ID=$PROJECT_ID
   - --project=$PROJECT_ID
