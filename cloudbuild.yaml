@@ -21,7 +21,7 @@ steps:
   - --set-secrets=OPENAI_API_KEY=$_OPENAI_KEY
   - --trigger-http
   - --runtime=python310
-  - --entry-point=internet_retriever_commands
+  - --entry-point=run_metagpt
   - --service-account=actions-gpt-based-cf@yggdrasil-ai-hermod.iam.gserviceaccount.com
   - --set-env-vars=PROJECT_ID=$PROJECT_ID
   - --project=$PROJECT_ID
